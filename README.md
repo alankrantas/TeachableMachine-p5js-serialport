@@ -7,9 +7,9 @@ This is for people who want to use Teachable Machine AI on their external device
 You'll need:
 
 * A Tensorflow.js model trained and uploaded on [Teachable Machine](https://teachablemachine.withgoogle.com/train) website
-* [p5.js](https://p5js.org/) (login to save the script)
+* Login [p5.js](https://p5js.org/) online JavaScript editor
 * Download and run [p5.serialcontrol](https://github.com/p5-serial/p5.serialcontrol/releases)
-* Whatever device you want to control via serial port
+* Connect to your device's serial port
 
 Change the serial port name and model link in the sketch.js.
 
