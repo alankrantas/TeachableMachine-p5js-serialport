@@ -1,4 +1,4 @@
-## Local Teachable Machine Image Recognition with p5.js Serial Port Output
+# Local Teachable Machine Image Recognition with p5.js Serial Port Output
 
 This is a local Teachable Machine version you can run on your computer, without the need to use p5.js online editor.
 
