@@ -9,6 +9,7 @@
     "author": "Alan Wang",
     "license": "GPL-3.0",
     "dependencies": {
+        "ecstatic": "^4.1.4",
         "http-server": "^0.12.3"
     }
 }
