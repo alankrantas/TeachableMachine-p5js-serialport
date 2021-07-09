@@ -1,0 +1,14 @@
+{
+    "name": "teachable-machine-image-recognition-p5js-serial-port",
+    "version": "1.0.0",
+    "description": "Local Teachable Machine Image Recognition with p5.js Serial Port Output",
+    "main": "index.html",
+    "scripts": {
+        "start": "start http://localhost:8080 && http-server"
+    },
+    "author": "Alan Wang",
+    "license": "ISC",
+    "dependencies": {
+        "http-server": "^0.12.3"
+    }
+}
