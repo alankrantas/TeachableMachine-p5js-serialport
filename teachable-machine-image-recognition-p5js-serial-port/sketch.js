@@ -1,5 +1,5 @@
 const modelURL = './model/';
-const serialPort = 'COMX';  
+const serialPort = 'COMX';  // change this to your serial port
 
 let classifier;
 let serial;
