@@ -6,14 +6,16 @@ void setup() {
 }
 
 void loop() {
+  // read a single character (label or class name) from serial port
   if (Serial.available()) {
     result = Serial.read();
   }
+  // do something depending on the label
   switch (result) {
-    case '1':
-      digitalWrite(13, HIGH);  // turn on LED on pin 13 if the received label is '1'
+    case '1':  // label "1"
+      digitalWrite(13, HIGH);  // turn on LED on pin 13
       break;
-    default:
-      digitalWrite(13, LOW);
+    default:  // other labels
+      digitalWrite(13, LOW);  // turn off LED on pin 13
   }
 }
