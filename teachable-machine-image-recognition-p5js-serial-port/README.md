@@ -14,7 +14,11 @@ https://github.com/p5-serial/p5.serialcontrol/releases
 
 Download the project into your computer.
 
-Open a Command Prompt or Terminal and execute ```npm install --save http-server``` under the project root directory. This will install a copy of http-server in the project, under the directory "node-modules".
+Open a Command Prompt or Terminal and execute
+
+```npm install --save http-server```
+
+under the project root directory. This will install a copy of http-server in the project, under the directory "node-modules".
 
 ### Train and download Teachable Machine image recognition model
 
@@ -40,4 +44,8 @@ Close Arduino IDE, run the p5.serialcontrol program and select the serial port.
 
 ### Start local server
 
-Make sure your webcam is ready, your Arduino board is connected, then open a Command Prompt or Terminal and execute ```npm start``` under the project root directory. This will start the local server and open http://localhost:8080 in the browser.
+Make sure your webcam is ready, your Arduino board is connected, then open a Command Prompt or Terminal and execute
+
+```npm start```
+
+under the project root directory. This will start the local server and open http://localhost:8080 in the browser.
