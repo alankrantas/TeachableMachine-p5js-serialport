@@ -1,5 +1,5 @@
 const modelURL = './model/';
-const serialPort = 'COM5';
+const serialPort = 'COMX';
 
 let classifier;
 let serial;
