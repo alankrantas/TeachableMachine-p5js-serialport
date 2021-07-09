@@ -16,11 +16,13 @@ Download the project into your computer.
 
 Open a Command Prompt or Terminal and execute ```npm install --save http-server``` under the project root directory. This will install a copy of http-server in the project, under the directory "node-modules".
 
-### Download Teachable Machine image recognition model
+### Train and download Teachable Machine image recognition model
 
 https://teachablemachine.withgoogle.com/train/image
 
-Train a model, download (not upload) it in the form of **Tensorflow.js**. Unzip the three files (metadata.json, model.json, weights.bin) into the project's \model subdirectory.
+Train a model, the image labels should be named as single characters like "1", "2", "3"...etc. because the Arduino script reads single characters.
+
+Download (not upload) it in the form of **Tensorflow.js**. Unzip the three files (metadata.json, model.json, weights.bin) into the project's \model subdirectory.
 
 ### Choose serial port
 
