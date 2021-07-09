@@ -44,7 +44,7 @@ function gotResult(error, results) {
     }
     label = String(results[0].label);
     console.log(label);
-    serial.write(label + '\r\n');
+    serial.write(label);
     classifyVideo();
 }
 
