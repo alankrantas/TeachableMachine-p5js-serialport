@@ -1,5 +1,5 @@
-const modelURL = './model/';
-const serialPort = 'COMX';  // change this to your serial port
+const modelURL = './image_model/';
+const serialPort = 'COM__';  // change this to your serial port
 
 let classifier;
 let serial;
@@ -28,7 +28,7 @@ function draw() {
     fill(255);
     textSize(16);
     textAlign(CENTER);
-    text(label, width / 2, height - 4);
+    text('Result: ' + label, width / 2, height - 4);
 }
 
 function classifyVideo() {
@@ -47,4 +47,3 @@ function gotResult(error, results) {
     serial.write(label);
     classifyVideo();
 }
-
