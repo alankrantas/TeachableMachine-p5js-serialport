@@ -26,7 +26,7 @@ https://teachablemachine.withgoogle.com/train/image
 
 Train a model, the image labels should be named as single characters like "1", "2", "3"...etc. because the Arduino script reads single characters.
 
-Download (not upload) it in the form of **Tensorflow.js**. Unzip the three files (metadata.json, model.json, weights.bin) into the project's \model subdirectory.
+Download (not upload) it in the form of **Tensorflow.js**. Unzip the three files (metadata.json, model.json, weights.bin) into the project's **image_model** subdirectory.
 
 ### Choose serial port
 
