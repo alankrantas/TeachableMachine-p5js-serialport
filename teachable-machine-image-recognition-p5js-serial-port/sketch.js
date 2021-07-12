@@ -6,6 +6,7 @@ let serial;
 let video;
 let flippedVideo;
 let label;
+let conf;
 
 function preload() {
     classifier = ml5.imageClassifier(modelURL + 'model.json');
@@ -28,7 +29,7 @@ function draw() {
     fill(255);
     textSize(16);
     textAlign(CENTER);
-    text('Result: ' + label, width / 2, height - 4);
+    text(`Result: ${label} (${conf} %)`, width / 2, height - 4);
 }
 
 function classifyVideo() {
@@ -43,7 +44,8 @@ function gotResult(error, results) {
         return;
     }
     label = String(results[0].label);
-    console.log(label);
+    conf = Math.round(Number(results[0].confidence) * 10000) / 100;
+    console.log(`Result: ${label} (${conf} %)`);
     serial.write(label);
     classifyVideo();
 }
