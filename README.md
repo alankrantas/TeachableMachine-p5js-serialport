@@ -12,3 +12,7 @@ See [this article](https://www.hackster.io/alankrantas/use-teachable-machine-ai-
 ### Local Server Version (Using p5.serialcontrol tool)
 
 * [Local image recognition server](https://github.com/alankrantas/TeachableMachine-p5js-serialport/tree/master/teachable-machine-image-recognition-p5js-serial-port)
+
+### Local Server Version (Using p5.j5, Johnny Five for p5.js with Web Serial)
+
+* [Local image recognition server](https://github.com/alankrantas/TeachableMachine-p5js-serialport/tree/master/teachable-machine-image-recognition-p5js-johnnyfive-web-serial)
