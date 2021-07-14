@@ -1,6 +1,8 @@
 ## Local Teachable Machine Image Recognition with p5.js + Johnny Five Web Serial
 
-This is a local Teachable Machine version you can run on your computer, without the need to use p5.js online editor. All the JavaScript libraries are already included. This version uses p5.j5 (Johnny Five for P5.js) to control Arduino boards loaded with StandardFirmataPlus firmware via web serial .
+This is a local Teachable Machine version you can run on your computer, without the need to use p5.js online editor. All the JavaScript libraries are already included. This version uses p5.j5 (Johnny Five for P5.js) to control Arduino boards loaded with StandardFirmataPlus firmware via web serial.
+
+This sample code can also be downloaded [here](https://github.com/alankrantas/TeachableMachine-p5js-serialport/blob/master/teachable-machine-image-recognition-p5js-johnnyfive-web-serial.zip).
 
 ### Install Node.js or Python 3
 
