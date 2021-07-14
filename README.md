@@ -4,7 +4,7 @@
 
 ### p5.js Online Editor Version (Using p5.serialcontrol tool)
 
-See [this article](https://www.hackster.io/alankrantas/use-teachable-machine-ai-to-control-anything-2ad1ee) for detailed instruction.
+See [this article](https://www.hackster.io/alankrantas/use-teachable-machine-ai-to-control-anything-2ad1ee) or see the readme of local server version below for detailed instruction.
 
 * [p5.js editor image recognition](https://editor.p5js.org/krantas/sketches/IKUf43rB)
 * [p5.js editor sound recognition](https://editor.p5js.org/krantas/sketches/3wZ9hAwG)
