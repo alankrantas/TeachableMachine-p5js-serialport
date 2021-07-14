@@ -46,7 +46,7 @@ For Node.js users, execute
 
 ```npm start```
 
-under the project root directory. This will start the local server and open http://localhost:8080 in the browser.
+under the project root directory. This will start the local server and open http://localhost:8000 in the browser.
 
 Python 3 users execute
 
