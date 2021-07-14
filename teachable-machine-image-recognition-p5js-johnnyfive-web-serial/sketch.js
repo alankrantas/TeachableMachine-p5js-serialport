@@ -1,14 +1,12 @@
 const labels = [
-    'Agfa Vista 400', 
-    'Kodak Ultramax 400', 
-    'Fujifilm Superia 400',
-    'Lomography 800'
+    'Class 1', 
+    'Class 2', 
+    'Class 3'
 ];
 const ledPins = [
-    2, 
-    3, 
-    4, 
-    5
+    2, // pin 2 for Class 1
+    3, // pin 3 for Class 2
+    4  // pin 4 for Class 3
 ];
 
 let classifier,
