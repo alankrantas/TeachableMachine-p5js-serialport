@@ -1,0 +1,14 @@
+{
+    "name": "teachable-machine-image-recognition-p5js-johnnyfive-web-serial",
+    "version": "1.0.0",
+    "description": "Local Teachable Machine Image Recognition with p5.js/Johnny Five Web Serial Output",
+    "main": "index.html",
+    "scripts": {
+        "start": "start http://localhost:8080 && http-server"
+    },
+    "author": "Alan Wang",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "http-server": "^0.12.3"
+    }
+}
