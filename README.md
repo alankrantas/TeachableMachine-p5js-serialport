@@ -9,10 +9,7 @@ See [this article](https://www.hackster.io/alankrantas/use-teachable-machine-ai-
 * [p5.js editor image recognition](https://editor.p5js.org/krantas/sketches/IKUf43rB)
 * [p5.js editor sound recognition](https://editor.p5js.org/krantas/sketches/3wZ9hAwG)
 
-### Local Server Version (Using p5.serialcontrol tool)
+### Local Server Version
 
-* [Local image recognition server](https://github.com/alankrantas/TeachableMachine-p5js-serialport/tree/master/teachable-machine-image-recognition-p5js-serial-port)
-
-### Local Server Version (Using p5.j5, Johnny Five for p5.js with Web Serial)
-
-* [Local image recognition server](https://github.com/alankrantas/TeachableMachine-p5js-serialport/tree/master/teachable-machine-image-recognition-p5js-johnnyfive-web-serial)
+* [Local image recognition server using p5.serialcontrol tool](https://github.com/alankrantas/TeachableMachine-p5js-serialport/tree/master/teachable-machine-image-recognition-p5js-serial-port)
+* [Local image recognition server using p5.j5, Johnny Five for p5.js with Web Serial](https://github.com/alankrantas/TeachableMachine-p5js-serialport/tree/master/teachable-machine-image-recognition-p5js-johnnyfive-web-serial)
