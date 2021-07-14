@@ -18,7 +18,7 @@ Download the project into your computer.
 
 If you are using Node.js, open a Command Prompt or Terminal and execute
 
-npm install --save http-server
+```npm install --save http-server```
 
 under the project root directory. This will install a copy of http-server in the project, under the directory "node-modules".
 
@@ -32,19 +32,25 @@ Train a model, the image labels should be named as single characters like "1", "
 
 Download (not upload) it in the form of Tensorflow.js. Unzip the three files (metadata.json, model.json, weights.bin) into the project's image_model subdirectory.
 
+### Edit sketch.js
+
+Open ```sketch.js``` in the project and modify the constant variable ```labels``` and ```ledPins``` to match your model.
+
+By default if the model recognize "Class 1", led on pin 2 will light up, led on pin 3 for "Class 2", and so on.
+
 ### Start local server
 
 Make sure your webcam is ready, your Arduino board is connected, then open a Command Prompt or Terminal.
 
 For Node.js users, execute
 
-npm start
+```npm start```
 
 under the project root directory. This will start the local server and open http://localhost:8080 in the browser.
 
 Python 3 users execute
 
-python -m http.server (on Windows) or python3 -m http.server (on Linux)
+```python -m http.server``` (on Windows) or ```python3 -m http.server``` (on Linux)
 
 then open http://localhost:8000 in your browser.
 
