@@ -1,6 +1,6 @@
 ## Local Teachable Machine Image Recognition with p5.js + Johnny Five Web Serial
 
-This is a local Teachable Machine version you can run on your computer, without the need to use p5.js online editor. All the JavaScript libraries are already included. This version uses p5.j5 (Johnny Five for P5.js) to control Arduino boards loaded with StandardFirmataPlus firmware.
+This is a local Teachable Machine version you can run on your computer, without the need to use p5.js online editor. All the JavaScript libraries are already included. This version uses p5.j5 (Johnny Five for P5.js) to control Arduino boards loaded with StandardFirmataPlus firmware via web serial .
 
 ### Install Node.js or Python 3
 
@@ -10,7 +10,7 @@ https://nodejs.org/en/ or https://www.python.org/downloads/
 
 https://github.com/firmata/arduino/blob/master/examples/StandardFirmataPlus/StandardFirmataPlus.ino
 
-This can also be found in Arduino IDE's example under Firmata directory.
+This can also be found in Arduino IDE's builtin example under ```Firmata``` directory.
 
 ### Prepare the project
 
