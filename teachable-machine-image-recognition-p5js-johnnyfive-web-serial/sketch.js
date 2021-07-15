@@ -60,14 +60,13 @@ function gotResult(error, results) {
     }
     label = String(results[0].label);
     conf = Math.round(Number(results[0].confidence) * 10000) / 100;
-    // console.log(`Result: ${label} (${conf} %)`);
+    console.log(`Result: ${label} (${conf} %)`);
     classifyVideo();
 }
 
 function setBoard() {
     if (boardConnected) {
         let labelIndex = labels.indexOf(label);
-        // console.log(labelIndex);
         leds.forEach((led, index) => {
             if (led) {
                 if (labelIndex == index && conf >= 95) {
