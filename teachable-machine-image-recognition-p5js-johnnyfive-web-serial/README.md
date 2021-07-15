@@ -44,11 +44,17 @@ By default if the model recognize "Class 1", led on pin 2 will light up, led on 
 
 Make sure your webcam is ready, your Arduino board is connected, then open a Command Prompt or Terminal.
 
-For Node.js users, execute
+For Node.js users on Windows, execute
 
 ```npm start```
 
 under the project root directory. This will start the local server and open http://localhost:8000 in the browser.
+
+For Node.js users on Linux or else, execute
+
+```http-server -p 8000```
+
+Then open http://localhost:8000 in the browser.
 
 Python 3 users execute
 
