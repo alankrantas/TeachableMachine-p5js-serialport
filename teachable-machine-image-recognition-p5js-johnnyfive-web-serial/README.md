@@ -58,3 +58,8 @@ then open http://localhost:8000 in your browser.
 ### Connect Arduino board via web serial
 
 After the web page shows up, click "Authorize Serial Device" and select the board's serial port.
+
+### Johnny Five / p5.j5 reference
+
+* http://johnny-five.io/api/
+* https://github.com/monteslu/p5.j5
