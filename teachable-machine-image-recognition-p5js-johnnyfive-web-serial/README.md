@@ -30,7 +30,20 @@ Download (not upload) it in the form of Tensorflow.js. Unzip the three files (me
 
 ### Edit sketch.js
 
-Open ```sketch.js``` in the project and modify the constant variable ```labels``` and ```ledPins``` to match your model.
+Open ```sketch.js``` in the project and modify the constant variable ```labels``` and ```ledPins``` to match your model. For example:
+
+```javascript
+const labels = [
+    'Class 1', 
+    'Class 2', 
+    'Class 3'
+];
+const ledPins = [
+    2, // pin 2 for 'Class 1'
+    3, // pin 3 for 'Class 2'
+    4  // pin 4 for 'Class 3'
+];
+```
 
 By default if the model recognize "Class 1", led on pin 2 will light up, led on pin 3 for "Class 2", and so on.
 
