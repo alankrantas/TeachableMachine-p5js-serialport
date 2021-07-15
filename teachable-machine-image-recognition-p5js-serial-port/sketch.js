@@ -1,15 +1,14 @@
-const modelURL = './image_model/';
 const serialPort = 'COM__';  // change this to your serial port
 
-let classifier;
-let serial;
-let video;
-let flippedVideo;
-let label;
-let conf;
+let classifier,
+    serial,
+    video,
+    flippedVideo,
+    label = '',
+    conf = 0;
 
 function preload() {
-    classifier = ml5.imageClassifier(modelURL + 'model.json');
+    classifier = ml5.imageClassifier('./image_model/model.json');
     serial = new p5.SerialPort();
 }
 
