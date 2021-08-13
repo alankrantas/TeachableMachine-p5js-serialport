@@ -24,7 +24,7 @@ Download the project somewhere into your computer.
 
 https://teachablemachine.withgoogle.com/train/image
 
-Train a model, the image labels should be named as single characters like "1", "2", "3"...etc. because the Arduino script reads single characters.
+Train a model, the image labels can be named as anything, as long as all labels are different.
 
 Download (not upload) it in the form of Tensorflow.js. Unzip the three files (metadata.json, model.json, weights.bin) into the project's image_model subdirectory.
 
@@ -45,7 +45,7 @@ const ledPins = [
 ];
 ```
 
-By default if the model recognize "Class 1", led on pin 2 will light up, led on pin 3 for "Class 2", and so on.
+So by default if the model recognize the object as "Class 1", led on pin 2 will light up; led on pin 3 light up for "Class 2", and so on.
 
 ### Start local server
 
